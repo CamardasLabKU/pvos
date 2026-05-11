@@ -1,0 +1,29 @@
+# Python 3.13 environment used in the manuscript.
+# The three packages explicitly reported in Section 4.3 of the paper
+# (pymoo, NumPy, joblib) are pinned to the exact versions used for the
+# experiments. Other packages are pinned to compatible minor versions.
+
+# Core multi-objective evolutionary algorithm framework
+pymoo==0.6.1
+
+# Numerical computing and intra-generation parallelism
+numpy==2.1.*
+joblib==1.4.*
+
+# Statistical analysis: Wilcoxon signed-rank and Friedman tests
+scipy>=1.13,<2.0
+
+# Holm correction for multiple-comparison adjustment
+statsmodels>=0.14,<0.15
+
+# Data handling and Excel summary workbooks
+pandas>=2.2,<3.0
+openpyxl>=3.1,<4.0
+
+# Plotting
+matplotlib>=3.8,<4.0
+
+# Jupyter environment for running the notebooks
+jupyter>=1.0
+notebook>=7.0,<8.0
+ipykernel>=6.29,<7.0
