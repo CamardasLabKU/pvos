@@ -1,0 +1,70 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite both the associated journal article and this archived repository."
+type: software
+title: "PVOS: Parallel Variation Operator Strategy research code and data"
+abstract: >-
+  Source code, configuration files, raw per-run results, and post-processing
+  notebooks for the Parallel Variation Operator Strategy (PVOS), a fixed-budget
+  operator-level multi-crossover ensemble for multi-objective evolutionary
+  optimization. Includes PVOS-2C and PVOS-4C implementations, four adaptive
+  operator-selection baselines (Borg, HNSGA, EnXEA, OVEA) under a common
+  four-operator pool, host-transfer integrations with NSGA-II, SPEA2, NSGA-III,
+  and AGE-MOEA2, the styrene monomer reactor case study (single-bed,
+  steam-injected, double-bed), the ordered 30-seed list, configuration files,
+  raw per-run CSVs, crossover-survival logs, and notebooks that reproduce all
+  reported tables and figures.
+
+authors:
+  - family-names: Alhazmi
+    given-names: Meshari
+    email: mesh@ku.edu
+    affiliation: "Department of Chemical and Petroleum Engineering, The University of Kansas, Lawrence, KS, USA"
+  - family-names: Camarda
+    given-names: Kyle
+    email: camarda@ku.edu
+    affiliation: "Department of Chemical and Petroleum Engineering, The University of Kansas, Lawrence, KS, USA"
+
+version: "1.0.0"
+date-released: "2026-05-10"
+repository-code: "https://github.com/CamardasLabKU/pvos"
+url: "https://github.com/CamardasLabKU/pvos"
+license: MIT
+
+keywords:
+  - multi-objective optimization
+  - evolutionary algorithms
+  - NSGA-II
+  - SPEA2
+  - NSGA-III
+  - AGE-MOEA2
+  - crossover operators
+  - parallel computing
+  - hypervolume
+  - IGD-plus
+  - adaptive operator selection
+  - styrene reactor
+  - pymoo
+
+# After creating the Zenodo release, uncomment the identifiers block below
+# and fill in the assigned DOI.
+#
+# identifiers:
+#   - type: doi
+#     value: "10.5281/zenodo.XXXXXXX"
+#     description: "Zenodo archive of the v1.0.0 release"
+
+preferred-citation:
+  type: article
+  title: "Operator-Level Parallel Crossover Ensembles with Fixed Evaluation Budgets for Multi-objective Evolutionary Optimization"
+  authors:
+    - family-names: Alhazmi
+      given-names: Meshari
+      email: mesh@ku.edu
+      affiliation: "Department of Chemical and Petroleum Engineering, The University of Kansas, Lawrence, KS, USA"
+    - family-names: Camarda
+      given-names: Kyle
+      email: camarda@ku.edu
+      affiliation: "Department of Chemical and Petroleum Engineering, The University of Kansas, Lawrence, KS, USA"
+  journal: "Applied Soft Computing"
+  year: 2026
+  notes: "Manuscript under review."
