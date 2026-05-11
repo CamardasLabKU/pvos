@@ -1,18 +1,24 @@
 cff-version: 1.2.0
-message: "If you use this software or data, please cite both the associated journal article and this archived repository."
+message: "If you use this software, please cite both the associated journal article and this archived repository."
 type: software
-title: "PVOS: Parallel Variation Operator Strategy research code and data"
+title: "PVOS: Parallel Variation Operator Strategy research code"
 abstract: >-
-  Source code, configuration files, raw per-run results, and post-processing
-  notebooks for the Parallel Variation Operator Strategy (PVOS), a fixed-budget
-  operator-level multi-crossover ensemble for multi-objective evolutionary
-  optimization. Includes PVOS-2C and PVOS-4C implementations, four adaptive
-  operator-selection baselines (Borg, HNSGA, EnXEA, OVEA) under a common
-  four-operator pool, host-transfer integrations with NSGA-II, SPEA2, NSGA-III,
-  and AGE-MOEA2, the styrene monomer reactor case study (single-bed,
-  steam-injected, double-bed), the ordered 30-seed list, configuration files,
-  raw per-run CSVs, crossover-survival logs, and notebooks that reproduce all
-  reported tables and figures.
+  Source code, experiment notebooks, consolidated post-analysis workbooks, and
+  rendered figures for the Parallel Variation Operator Strategy (PVOS), a
+  fixed-budget operator-level multi-crossover ensemble for multi-objective
+  evolutionary optimization. The repository includes the PVOS-2C pairing study
+  notebook (all six two-operator combinations), the baseline NSGA-II versus
+  PVOS-4C notebook covering the 27-problem benchmark and the population-size
+  sensitivity analysis, four adaptive operator-selection baselines (Borg, HNSGA,
+  EnXEA, OVEA) instantiated over the common four-operator pool, host-transfer
+  notebooks for SPEA2, NSGA-III, and AGE-MOEA2, the styrene monomer reactor
+  case study for the single-bed, steam-injected, and double-bed configurations
+  (process-model implementation, empirical reference sets, normalization
+  bounds, and paired baseline NSGA-II and PVOS-4C notebooks), two Excel
+  workbooks consolidating all main and supplementary tables, and the rendered
+  manuscript figures. Per-run results and per-seed metrics are embedded in the
+  executed notebooks. This is the public artifact referenced in the
+  manuscript's Data availability statement.
 
 authors:
   - family-names: Alhazmi
@@ -25,7 +31,7 @@ authors:
     affiliation: "Department of Chemical and Petroleum Engineering, The University of Kansas, Lawrence, KS, USA"
 
 version: "1.0.0"
-date-released: "2026-05-10"
+date-released: "2026-05-11"
 repository-code: "https://github.com/CamardasLabKU/pvos"
 url: "https://github.com/CamardasLabKU/pvos"
 license: MIT
